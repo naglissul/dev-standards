@@ -18,3 +18,10 @@ https://semver.org/
 2. Make a changelog
 3. Have a DESIGN.md file (or use JIRA)
 4. ......
+
+# Environments
+https://www.flagship.io/test-environment/
+- Dev
+- Test
+- Stage
+- Prod
