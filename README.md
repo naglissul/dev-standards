@@ -21,7 +21,18 @@ https://semver.org/
 
 # Environments
 https://www.flagship.io/test-environment/
-- Dev
-- Test
-- Stage
-- Prod
+https://dev.to/preethamsathyamurthy/git-branching-and-branching-strategy-4mci
+https://relevant.software/blog/software-development-process/
+
+- Dev (develop)
+- Test (test)
+- Stage (staging/syst)
+- Prod (master/main/prod/live)
+
+Basically:  
+1. create a feature on feature branch.  
+2. PR to develop branch.  
+3. When all the features are merged to the develop branch, merge (without the PR) from develop -> test is made. 
+4. Everything is tested thoroughly on test branch - including the inspecting of code quality. The changes are made here, if needed.
+5. test -> staging. Builds are made in test environment and sent to staging environment. In staging - only builds(?). And they are reviewed by product owner or client
+6. When everything is reviewed, PR from staging -> master. Here everything is in production and can be seen for users
