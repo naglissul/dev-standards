@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+section {
+  flex: 10 10 0;
+}
+
+aside {
+  flex: 3 3 0;
+}
+
+header {
+  height: 50px;
+}
+
+footer {
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    display: none;
+  }
+}
